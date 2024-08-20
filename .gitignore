@@ -1,0 +1,54 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore Paket dependencies
+paket-files/
+.paket/
+
+# Ignore FAKE build artifacts
+.fake/
+
+# Ignore NuGet packages
+*.nupkg
+.nuget/
+
+# Ignore build logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled DLLs and PDBs
+*.dll
+*.pdb
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore F# interactive history
+.fsi/
+
+# Ignore generated documentation
+docs/_site/
+
+
+notes/
+
+# Ignore local configuration files
+appsettings.local.json
+
